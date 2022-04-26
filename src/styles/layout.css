@@ -1,7 +1,12 @@
+h2 {
+    color: #3c3c3c;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
 .box {
     background-color: #fff;
     border-radius: 25px;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 800px;
     padding: 20px;
 }
