@@ -17,9 +17,12 @@ function App() {
     <div className="app">
       <div className='header-container'>
         <h1>ByTanyaR.com</h1>
-        <Navbar />
+        {/* <Navbar /> */}
       </div>
-      <BrowserRouter>
+
+      <Home />
+
+      {/* <BrowserRouter>
         <Layout>
           <Routes>
             <Route exact path="/resume-2022" element={<Home />} />
@@ -29,7 +32,7 @@ function App() {
       </BrowserRouter>
       <div className='footer-container'>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
