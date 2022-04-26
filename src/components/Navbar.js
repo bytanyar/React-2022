@@ -11,8 +11,8 @@ function Navbar() {
       <nav>
         <BrowserRouter>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/resume">Resume</Link></li>
+            <li><Link to="/resume-2022">Home</Link></li>
+            <li><Link to="/resume-2022/resume">Resume</Link></li>
           </ul>
         </BrowserRouter>
       </nav>
