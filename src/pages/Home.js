@@ -3,7 +3,9 @@ import '../styles/home.css';
 function Home() {
   return (
     <div className="container">
-      Home
+      <div className='box'>
+        Home
+      </div>
     </div>
   );
 }
