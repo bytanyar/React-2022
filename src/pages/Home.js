@@ -46,6 +46,15 @@ function Home() {
         <h2>Knowledge Base</h2>
         {knowledge}
       </div>
+      
+      <div className='box'>
+        <h2>StoragePug</h2>
+        
+      </div>
+      <div className='box'>
+        <h2>Clayton Homes</h2>
+        
+      </div>
     </div>
   );
 }
