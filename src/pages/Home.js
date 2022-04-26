@@ -1,9 +1,33 @@
-import knowledgeData from '../inputs/knowledge';
-
 import '../styles/home.css';
 
 function Home() {
+  var knowledgeData = [
+    "Adobe Creative Suite",
+    "Agile/SCRUM",
+    "Angular 9",
+    "Bootstrap",
+    "CSS 3/SCSS",
+    "Figma",
+    "Gatsby",
+    "Git",
+    "Git Kraken/Sourcetree",
+    "GitHub",
+    "HTML 5",
+    "HubSpot",
+    "JavaScript",
+    "Jira",
+    "JQuery",
+    "JSON",
+    "Responsive Web Design",
+    "Sketch",
+    "Storybook",
+    "Team City",
+    "Typescript",
+    "Zeplin",
+    "PC & Macintosh Operating Systems"
+  ];
   function listKnowledge() {
+    console.log(knowledgeData);
     const listItems = knowledgeData.map((tech) =>
       <li>{tech}</li>
     );
