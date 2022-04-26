@@ -1,7 +1,30 @@
 .knowledge {
-    columns: 3;
     margin-left: 20px;
 }
-.knowledge li {
+.knowledge li,
+.companies li {
     list-style: square;
+    padding-bottom: 10px;
+}
+.companies ul {
+    border-top: 5px solid #f6bf75;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+@media only screen and (min-width: 450px){
+    .knowledge {
+        columns: 2;
+    }
+}
+@media only screen and (min-width: 768px){
+    .knowledge {
+        columns: 3;
+    }
+    .companies ul {
+        columns: 2;
+    }
+    .companies li {
+        margin-right: 10px;
+    }
 }
