@@ -14,3 +14,10 @@ nav a {
     color: #4150b1;
     text-decoration: none;
 }
+.copyright {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
