@@ -32,7 +32,7 @@ function Home() {
       <li>{tech}</li>
     );
     return (
-      <ul>{listItems}</ul>
+      <ul className='knowledge'>{listItems}</ul>
     ); 
   }
   const knowledge = listKnowledge();
@@ -43,6 +43,7 @@ function Home() {
         <p>Seeking a position that will benefit from my strong work ethic and experience in website development as well as grow my abilities and knowledge.</p>
       </div>
       <div className='box'>
+        <h2>Knowledge Base</h2>
         {knowledge}
       </div>
     </div>
