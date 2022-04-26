@@ -4,8 +4,12 @@
 }
 .header-container,
 .footer-container {
+  align-items: center;
   background: #8f68a9;
   background: linear-gradient(90deg, #4150b1 0%, #8f68a9 30%, #bc6894 60%, #f6bf75 100%);
+  display: flex;
+  justify-content: center;
+  min-height: 75px;
 }
 h1 {
   color: #fff;
