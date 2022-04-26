@@ -1,33 +1,10 @@
+import { JOBS } from '../inputs/actual-jobs';
+import { knowledgeData } from '../inputs/knowledge';
+
 import '../styles/home.css';
 
 function Home() {
-  var knowledgeData = [
-    "Adobe Creative Suite",
-    "Agile/SCRUM",
-    "Angular 9",
-    "Bootstrap",
-    "CSS 3/SCSS",
-    "Figma",
-    "Gatsby",
-    "Git",
-    "Git Kraken/Sourcetree",
-    "GitHub",
-    "HTML 5",
-    "HubSpot",
-    "JavaScript",
-    "Jira",
-    "JQuery",
-    "JSON",
-    "Responsive Web Design",
-    "Sketch",
-    "Storybook",
-    "Team City",
-    "Typescript",
-    "Zeplin",
-    "PC & Macintosh Operating Systems"
-  ];
   function listKnowledge() {
-    console.log(knowledgeData);
     const listItems = knowledgeData.map((tech) =>
       <li>{tech}</li>
     );
@@ -36,6 +13,7 @@ function Home() {
     ); 
   }
   const knowledge = listKnowledge();
+
   return (
     <div className="container">
       <div className='box'>
@@ -47,13 +25,17 @@ function Home() {
         {knowledge}
       </div>
       
-      <div className='box'>
-        <h2>StoragePug</h2>
-        
-      </div>
-      <div className='box'>
-        <h2>Clayton Homes</h2>
-        
+      <div className='companies'>
+      {JOBS.map(job => (
+        <div key={job.id} className='box'>
+          <h2>{job.company}</h2>
+          <h3>{job.title}</h3>
+          <h4>{job.start} - {job.end}</h4>
+          <ul>
+            {job.details.map(detail => (
+              <li>{detail}</li>))}
+          </ul>
+        </div>))}
       </div>
     </div>
   );
