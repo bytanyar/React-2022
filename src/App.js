@@ -29,10 +29,10 @@ function App() {
             <Route exact path="/resume" element={<Resume />} />
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </BrowserRouter> */}
       <div className='footer-container'>
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }
