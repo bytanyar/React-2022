@@ -9,6 +9,7 @@ import Layout from './components/Layout';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+import '../styles/reset.css';
 import './styles/app.css';
 
 function App() {
