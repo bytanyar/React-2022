@@ -1,15 +1,16 @@
-nav ul {
+footer ul {
     align-items: center;
     display: flex;
     justify-content: center;
 }
-nav ul li {
+footer ul li {
     background-color: #fff;
     height: 20px;
     list-style: none;
+    margin: 0 5px;
     padding: 0 5px;
 }
-nav a {
+footer a {
     color: #4150b1;
     text-decoration: none;
 }
