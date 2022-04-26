@@ -8,14 +8,14 @@ import {
   function Footer() {
     return (
       <div className="footer">
-        <footer>
+        {/* <footer>
           <BrowserRouter>
             <ul>
             <li><Link to="/resume-2022">Home</Link></li>
             <li><Link to="/resume">Resume</Link></li>
             </ul>
           </BrowserRouter>
-        </footer>
+        </footer> */}
         <div className='copyright'>
             ByTanyaR copyright 2022
         </div>
