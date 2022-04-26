@@ -3,7 +3,9 @@ import '../styles/resume.css';
 function Resume() {
   return (
     <div className="container">
-      Resume
+      <div className='box'>
+        Resume
+      </div>
     </div>
   );
 }
