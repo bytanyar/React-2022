@@ -20,5 +20,6 @@ var knowledgeData = [
     "Storybook",
     "Team City",
     "Typescript",
-    "Zeplin"
+    "Zeplin",
+    "PC & Macintosh Operating Systems"
   ];
