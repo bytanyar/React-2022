@@ -11,6 +11,7 @@ function Home() {
       <ul>{listItems}</ul>
     ); 
   }
+  const knowledge = listKnowledge();
   return (
     <div className="container">
       <div className='box'>
@@ -18,7 +19,7 @@ function Home() {
         <p>Seeking a position that will benefit from my strong work ethic and experience in website development as well as grow my abilities and knowledge.</p>
       </div>
       <div className='box'>
-        {listKnowledge()}
+        {knowledge}
       </div>
     </div>
   );
