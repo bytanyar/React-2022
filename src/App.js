@@ -13,7 +13,7 @@ import './styles/app.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <div className='header-container'>
         <h1>ByTanyaR.com</h1>
         <Navbar />
