@@ -23,7 +23,7 @@ function App() {
         <Layout>
           <Routes>
             <Route exact path="/resume-2022" element={<Home />} />
-            <Route exact path="/resume-2022/resume" element={<Resume />} />
+            <Route exact path="/resume" element={<Resume />} />
           </Routes>
         </Layout>
       </BrowserRouter>
