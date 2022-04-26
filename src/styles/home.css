@@ -1,3 +1,7 @@
-.knowledge ul {
-    column-count: 3;
+.knowledge {
+    columns: 3;
+    margin-left: 20px;
+}
+.knowledge li {
+    list-style: square;
 }
