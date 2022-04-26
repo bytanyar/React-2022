@@ -10,7 +10,6 @@ function Home() {
     return (
       <ul>
         {listItems}
-        <li>PC &amp; Macintosh Operating Systems</li>
       </ul>
     ); 
   }
@@ -21,10 +20,7 @@ function Home() {
         <p>Seeking a position that will benefit from my strong work ethic and experience in website development as well as grow my abilities and knowledge.</p>
       </div>
       <div className='box'>
-      <ul>
-              {listKnowledge}
-              
-          </ul>
+        {listKnowledge}
       </div>
     </div>
   );
