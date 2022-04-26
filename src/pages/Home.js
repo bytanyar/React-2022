@@ -3,9 +3,17 @@ import knowledgeData from '../inputs/knowledge';
 import '../styles/home.css';
 
 function Home() {
-  const listItems = knowledgeData.map((tech) =>
-    <li>{tech}</li>
-  );
+  function listKnowledge() {
+    const listItems = knowledgeData.map((tech) =>
+      <li>{tech}</li>
+    );
+    return (
+      <ul>
+        {listItems}
+        <li>PC &amp; Macintosh Operating Systems</li>
+      </ul>
+    ); 
+  }
   return (
     <div className="container">
       <div className='box'>
@@ -14,8 +22,8 @@ function Home() {
       </div>
       <div className='box'>
       <ul>
-              {listItems}
-              <li>PC &amp; Macintosh Operating Systems</li>
+              {listKnowledge}
+              
           </ul>
       </div>
     </div>
