@@ -18,6 +18,10 @@ function App() {
       <div className='header-container'>
         <h1>ByTanyaR.com</h1>
         {/* <Navbar /> */}
+        <div className='externals'>
+          <a className='angular' href="https://bytanyar.com">Angular</a>
+          <a className='git' target="_blank" href="https://github.com/bytanyar/resume-2022">GitHub</a>
+        </div>
       </div>
 
       <Home />
