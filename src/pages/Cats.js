@@ -1,13 +1,13 @@
-import '../styles/resume.css';
+import '../styles/cats.css';
 
-function Resume() {
+function Cats() {
   return (
     <div className="container">
       <div className='box'>
-        Resume
+        Cats
       </div>
     </div>
   );
 }
 
-export default Resume;
+export default Cats;
