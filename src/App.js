@@ -4,7 +4,7 @@ import {
   Route
 } from 'react-router-dom';
 import Home from './pages/Home';
-import Resume from './pages/Resume';
+import Cats from './pages/Cats';
 import Layout from './components/Layout';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -25,8 +25,8 @@ function App() {
       {/* <BrowserRouter>
         <Layout>
           <Routes>
-            <Route exact path="/resume-2022" element={<Home />} />
-            <Route exact path="/resume" element={<Resume />} />
+            <Route exact path="/2022" element={<Home />} />
+            <Route exact path="/cats" element={<Cats />} />
           </Routes>
         </Layout>
       </BrowserRouter> */}
