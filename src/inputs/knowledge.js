@@ -15,6 +15,8 @@ export const knowledgeData = [
     "Jira",
     "JQuery",
     "JSON",
+    "Node",
+    "React JS",
     "Responsive Web Design",
     "Sketch",
     "Storybook",
