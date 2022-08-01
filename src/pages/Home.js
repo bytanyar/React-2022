@@ -37,7 +37,7 @@ function Home() {
           </ul>
         </div>))}
       </div>
-      <div className='box'>
+      <div className='education box'>
         <h2>Education</h2>
         <h3>Coding Dojo - Online Bootcamp</h3>
         <p>Black Belt - MERN Stack</p>
