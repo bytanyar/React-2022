@@ -37,6 +37,17 @@ function Home() {
           </ul>
         </div>))}
       </div>
+      <div>
+        <h2>Education</h2>
+        <h3>Coding Dojo - Online Bootcamp</h3>
+        <p>Black Belt - MERN Stack</p>
+
+        <h3>Pellissippi State Technical Comminity College, Knoxville, TN</h3>
+        <p>Associate of Applied Science Degree in Media Technologies - Web</p>
+
+        <h3>University of Tennessee, Knoxville, TN</h3>
+        <p>Completed three years of coursework (Painting/Drawing major)</p>
+      </div>
     </div>
   );
 }
