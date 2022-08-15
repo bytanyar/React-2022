@@ -15,7 +15,7 @@
     padding-top: 20px;
 }
 .projects h3 {
-    margin-top: 3em;
+    margin-top: 2em;
 }
 .education h2 {
     border-bottom: 5px solid #f6bf75;
@@ -33,7 +33,6 @@
     .knowledge {
         columns: 3;
     }
-    .projects ul,
     .companies ul {
         columns: 2;
     }
