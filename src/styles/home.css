@@ -7,6 +7,7 @@
     list-style: square;
     padding-bottom: 10px;
 }
+.projects ul,
 .companies ul {
     border-top: 5px solid #f6bf75;
     margin-top: 20px;
@@ -32,6 +33,7 @@
     .knowledge {
         columns: 3;
     }
+    .projects ul,
     .companies ul {
         columns: 2;
     }
