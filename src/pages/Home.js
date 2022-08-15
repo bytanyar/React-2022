@@ -1,4 +1,5 @@
 import { JOBS } from '../inputs/actual-jobs';
+import { PROJECTS } from '../inputs/projects';
 import { knowledgeData } from '../inputs/knowledge';
 
 import '../styles/home.css';
@@ -25,10 +26,23 @@ function Home() {
         {knowledge}
       </div>
       
+      <div className='box'>
+        <h2>Technical Experience</h2>
+        {PROJECTS.map(project => (
+        <div key={project.id}>
+          <h3>{project.name} -- {project.note}</h3>
+          <h4>{project.description}</h4>
+          <ul>
+            {project.details.map(detail => (
+              <li>{detail}</li>))}
+          </ul>
+        </div>))}
+      </div>
+
       <div className='companies'>
       {JOBS.map(job => (
         <div key={job.id} className='box'>
-          <h2>{job.company}</h2>
+          <h2>{job.name}</h2>
           <h3>{job.title}</h3>
           <h4>{job.start} - {job.end}</h4>
           <ul>
