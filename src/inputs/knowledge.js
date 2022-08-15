@@ -21,7 +21,6 @@ export const knowledgeData = [
     "Responsive Web Design",
     "Sketch",
     "Storybook",
-    "Team City",
     "Zeplin",
     "PC & Macintosh Operating Systems"
   ];
