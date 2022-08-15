@@ -26,7 +26,7 @@ function Home() {
         {knowledge}
       </div>
       
-      <div className='box'>
+      <div className='box projects'>
         <h2>Technical Experience</h2>
         {PROJECTS.map(project => (
         <div key={project.id}>
