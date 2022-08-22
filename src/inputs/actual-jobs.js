@@ -36,7 +36,7 @@ export const JOBS = [
     company: 'Freelance work', 
     start: 'Feb 2022', 
     end: 'Apr 2022',
-    title: 'Web Developer', 
+    title: 'Freelance Web Developer', 
     details: [
       'Adjust and fine tune poorly taken images in PhotoShop',
       'Size images for improved web performance',
