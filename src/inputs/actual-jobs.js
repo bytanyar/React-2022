@@ -38,11 +38,11 @@ export const JOBS = [
     end: 'Apr 2022',
     title: 'Web Developer', 
     details: [
-    'Adjust and fine tune poor images in PhotoShop',
-    'Size images for improved web performance',
-    'Website administration/transfer for Squarespace website',
-    'Redesign page to include multiple additional images',
-    'Domain administration/transfer',
-    'Google My Business listing administration/transfer'
+      'Adjust and fine tune poorly taken images in PhotoShop',
+      'Size images for improved web performance',
+      'Transfer data for Squarespace website and setup administration rights',
+      'Redesign page to include multiple additional images',
+      'Transfer domain ownership and setup administration rights',
+      'Transfer Google My Business listing and setup administration rights'
   ] },
 ];
