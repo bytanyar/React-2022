@@ -1,7 +1,7 @@
 export const JOBS = [
   { id: 3, 
     company: 'Various Customers', 
-    start: 'December 2022', 
+    start: 'December 2021', 
     end: 'Present',
     title: 'Self-Employed/Freelance Frontend Developer and Coursework Full Stack Developer', 
     details: [
@@ -15,8 +15,8 @@ export const JOBS = [
     'RECIPES. A MERN based application for collecting and using recipes',
     'Created a full CRUD application with functional create, read, update, and delete features from scratch',
     'Leveraged React with fully responsive CSS to populate a list of all recipes and their respective detailed pages',
-    'Developed full back end using an Express framework with a MongoDB database'    
-  ] },
+    'Developed full back end using an Express framework with a MongoDB database' 
+  },
   { id: 2, 
     company: 'StoragePug', 
     start: 'March 2020', 
@@ -31,11 +31,6 @@ export const JOBS = [
     'Use provided wireframes, prototypes and content to build websites to design standards using a specialized CMS',
     'Ensure work adheres to established standards and practices',
     'Use drag-and-drop web editor to build self-storage websites',
-    'Use CSS/HTML to override CMS settings to meet design requirements',
-    'Use drag-and-drop web editor to build self-storage websites',
-    'Communicate with team members, developers, and designers as needed during the website building process',
-    'Present designs to peers'
-  ] },
   { id: 1, 
     company: 'Clayton Homes', 
     start: 'November 2014', 
@@ -51,5 +46,5 @@ export const JOBS = [
     'Write reusable code for UI components',
     'Use existing standards to maximize browser compatibility',
     'Build and test responsive layouts'
-  ] },
+  },
 ];
