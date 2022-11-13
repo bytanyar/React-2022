@@ -17,8 +17,12 @@ function Home() {
   return (
     <div className="container">
       <div className='box'>
-        <h2>Objective</h2>
-        <p>Seeking a position that will benefit from my strong work ethic and experience in website development as well as grow my abilities and knowledge.</p>
+        <h2>Career Objective</h2>
+        <p>I am a web designing professional and enthusiast. I am pursuing full stack development because I love to learn and because I am passionate about how websites work. I am also an artist by training and disposition and believe this skill helps me to conceptualize websites from theory to realization.</p>
+      </div>
+      <div className='box'>
+        <h2>Career Summary</h2>
+        <p>For the last eight years I have successfully advanced from Front End Developer to becoming a Full Stack Developer. While at Clayton Homes, I consistently received coveted ACE awards for high performance, customer satisfaction, and collaboration. At StoragePug, I was nicknamed “eagle eye” Tanya for my attention to detail.</p>
       </div>
       <div className='box'>
         <h2>Knowledge Base</h2>
