@@ -16,7 +16,7 @@ export const JOBS = [
     'Created a full CRUD application with functional create, read, update, and delete features from scratch',
     'Leveraged React with fully responsive CSS to populate a list of all recipes and their respective detailed pages',
     'Developed full back end using an Express framework with a MongoDB database' 
-  },
+] },
   { id: 2, 
     company: 'StoragePug', 
     start: 'March 2020', 
@@ -31,6 +31,7 @@ export const JOBS = [
     'Use provided wireframes, prototypes and content to build websites to design standards using a specialized CMS',
     'Ensure work adheres to established standards and practices',
     'Use drag-and-drop web editor to build self-storage websites',
+    ] },
   { id: 1, 
     company: 'Clayton Homes', 
     start: 'November 2014', 
@@ -46,5 +47,5 @@ export const JOBS = [
     'Write reusable code for UI components',
     'Use existing standards to maximize browser compatibility',
     'Build and test responsive layouts'
-  },
+    ] },
 ];
